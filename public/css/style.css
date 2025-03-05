@@ -1,0 +1,114 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/Roboto-Regular.woff2') format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/Roboto-Medium.woff2') format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/Roboto-Bold.woff2') format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/Roboto-Black.woff2') format("woff2");
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #f7f7f7;
+  color: #152536;
+  margin: 50px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  font-family: inherit;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: #0d8ae4;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(13, 138, 228, 90%);
+}
+
+.btn:active {
+  background-color: rgba(13, 138, 228, 70%);
+}
+
+.card {
+  padding: 20px 30px 50px 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,6%);
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,8%);
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+button {
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input,
+textarea {
+  border-radius: 6px;
+  border: 1px solid #1c2530;
+}
+
+textarea {
+  resize: none;
+  resize: vertical;
+}
